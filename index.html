@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>blockd — Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+      color: #1a1a1a;
+      background: #ffffff;
+    }
+    h1 { font-size: 1.9rem; margin-bottom: 4px; }
+    h2 { font-size: 1.2rem; margin-top: 32px; }
+    .updated { color: #666; font-size: 0.9rem; margin-top: 0; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    code { background: rgba(127,127,127,0.15); padding: 1px 5px; border-radius: 4px; }
+    a { color: #0a66c2; }
+    @media (prefers-color-scheme: dark) {
+      body { color: #e6e6e6; background: #0d0d0d; }
+      a { color: #7ab6ff; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy for blockd</h1>
+  <p class="updated">Last updated: 4 July 2026</p>
+
+  <p>
+    blockd ("the app") is an app-blocker that helps you focus by covering
+    distracting apps with a lock screen until you scan your NFC tag or QR key.
+    This policy explains what data the app handles. In short:
+    <strong>blockd does not collect, transmit, or share any personal data.
+    Everything stays on your device.</strong>
+  </p>
+
+  <h2>Data we collect</h2>
+  <p>
+    <strong>None.</strong> blockd has no user accounts, no analytics, no
+    advertising, and no third-party SDKs that collect data. The app does not
+    send any information off your device and has no servers. All of your
+    settings — the apps you choose to block, your NFC tag IDs, your QR key,
+    and your session/pause preferences — are stored only in local storage on
+    your device.
+  </p>
+
+  <h2>Permissions and why they are used</h2>
+  <p>
+    blockd requests only the permissions it needs to block apps. Each is used
+    solely on your device, in real time, and none of the data is stored,
+    logged, or transmitted:
+  </p>
+  <ul>
+    <li><strong>Usage access</strong> — to detect which app is currently in
+      the foreground, so the app can show the block screen when you open a
+      blocked app. Only the app's package name is read; screen content is
+      never read.</li>
+    <li><strong>Display over other apps</strong> — to draw the block screen on
+      top of a blocked app.</li>
+    <li><strong>Camera</strong> — used only while the QR scanner is open, to
+      read your personal QR key. No images are recorded or stored.</li>
+    <li><strong>NFC</strong> — to read the unique ID of the NFC tag you tap, so
+      it can be used to start or stop a blocking session.</li>
+    <li><strong>Notifications</strong> — to show a persistent notification
+      while a blocking session is running.</li>
+    <li><strong>Accessibility service (optional)</strong> — only if you
+      explicitly enable it, blockd uses Android's Accessibility service for a
+      single purpose: to detect which app is in the foreground so it can show
+      the block screen. blockd does not read, collect, store, or share the
+      content of your screen. You can turn it off at any time in Android
+      settings.</li>
+  </ul>
+
+  <h2>Data sharing</h2>
+  <p>blockd does not share any data with anyone, because it does not collect or
+    transmit any data.</p>
+
+  <h2>Data storage and deletion</h2>
+  <p>
+    All app data is stored locally on your device. Uninstalling blockd removes
+    all of its data. You can also clear the app's data from your device's app
+    settings at any time.
+  </p>
+
+  <h2>Children's privacy</h2>
+  <p>blockd is not directed at children and does not knowingly collect any data
+    from anyone, including children under 13.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be posted on this page
+    with a new "Last updated" date.</p>
+
+  <h2>Contact</h2>
+  <p>If you have any questions about this privacy policy, contact:
+    <a href="mailto:tim@helga.ch">tim@helga.ch</a>.</p>
+</body>
+</html>
